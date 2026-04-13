@@ -1,43 +1,30 @@
-# Netflix Movie Project
+# Netflix Movie Analyzer
 
-## Overview
-This project explores a collection of Netflix movie data to provide insights and analysis of trends in movies over the years. The dataset includes various metrics that allow for a deeper understanding of the characteristics that define popular movies.
+## Project Overview
+The Netflix Movie Analyzer is a project aimed at providing insights and analysis on various movies available on the Netflix platform. The project utilizes data analytics techniques to explore different aspects of Netflix movies, including their genre, ratings, and viewer engagement.
 
-## Features
-- Analysis of movie ratings and their distribution over time.
-- Insights into the genres that are most popular.
-- Exploration of the correlation between various features like duration, genre, and ratings.
+## Data Columns
+The dataset used in this project consists of several columns:
+- **Title**: The name of the movie.
+- **Genre**: The genre(s) associated with the movie (e.g., Drama, Comedy).
+- **Rating**: The average rating of the movie as given by users.
+- **Votes**: The number of votes the movie has received.
+- **Release Year**: The year the movie was released.
+- **Duration**: The total runtime of the movie.
 
-## Findings
-- Trends in movie ratings over the years indicate a shift in viewer preferences.
-- Certain genres consistently outperform others in terms of ratings.
-- Data suggest that longer movies tend to receive higher ratings on average.
+## Analysis Insights
+1. **Rating Distribution**: The analysis reveals the average ratings of movies across different genres, indicating which genres tend to receive higher ratings.
+2. **Vote Count**: Insights into the vote counts show how user engagement varies among movies, providing an understanding of the most popular movies on the platform.
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+## Genre Distribution Findings
+- The analysis categorizes the movies based on their genres, allowing us to visualize the distribution of various genres on Netflix. 
+- Most Common Genres: Drama, Comedy, Action, etc.
+- Correlation between genre and average rating.
 
-## Dataset Information
-- The dataset contains multiple columns, including:
-  - Title
-  - Genre
-  - Rating
-  - Duration
-  - Release Date
-  - Director
+## Vote Categorization Information
+- Movies are categorized into segments based on the number of votes they received:
+  - **Highly Voted**: Movies with over 1000 votes.
+  - **Moderately Voted**: Movies with 500-1000 votes.
+  - **Low Voted**: Movies with less than 500 votes.
 
-## Preprocessing Steps
-1. Loaded the dataset and checked for missing values.
-2. Cleaned the data by removing duplicates.
-3. Converted all necessary columns to appropriate data types.
-4. Conducted exploratory data analysis (EDA) to identify trends and outliers.
-
-## Analysis Questions
-- What are the most popular genres based on viewer ratings?
-- How do movie ratings change over different release years?
-- Is there a correlation between movie duration and ratings?
-
-## Project Structure
+This categorization helps in understanding which movies are worth watching based on viewer engagement.
